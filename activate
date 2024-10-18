@@ -1,0 +1,4 @@
+#! /bin/bash
+
+# activate the Python venv for this repo
+source ~/.local/share/venvs/lpythw/bin/activate
