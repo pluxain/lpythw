@@ -27,6 +27,11 @@ iq = divide(100, 2)
 print(f"Age: {age}, Height: {height}, Weight: {weight}, IQ: {iq}")
 
 print("Here is a puzzle.")
-what = add(age, substact(height, multiply(weight, divide(iq, 2))))
+what = add(age, substact(height, multiply(weight, divide(iq, 3))))
 
 print("That becomes: ", what, "Can you do it by hand")
+
+print("A simple formula.")
+print("34 - (23 + (4 / (2 * 1)))", 34 - (23 + (4 / (2 * 1))))
+which = substact(34, add(23, divide(4, multiply(2, 1))))
+print("Using the functions", which)
