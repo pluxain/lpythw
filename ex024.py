@@ -159,6 +159,24 @@ solutions = {
         {'result': 'Moderate',
             'path':  "languages[2]['speed']", 'value': languages[2]['speed']},
 
+    ],
+    "reproduce the lyrics from ex023":
+    [
+        {'result': "Little",
+            'path': "cars[1]['size']", 'value': cars[1]['size']},
+        {'result': "Red",
+            'path': "cars[1]['color'][0]", 'value': cars[1]['color']},
+        {'result': "Corvette",
+            'path': "cars[1]['type']", 'value': cars[1]['type']},
+        {'result': "Baby",
+            'path': "cars[3]['size'][1]", 'value': cars[3]['size']},
+        {'result': "UR",
+            'path': "fruit[3]['rating']", 'value': fruit[3]['rating']},
+        {'result': "Mush",
+            'path': "languages[0]['opinion'][1]", 'value': languages[0]['opinion'][1]},
+        {'result': 2, 'path': "fruit[2][1]", 'value': fruit[2]['count']},
+        {'result': "Fast",
+            'path': "languages[3]['speed]", 'value': languages[3]['speed']}
     ]
 }
 
