@@ -14,3 +14,11 @@ def add(a, b):
 addition = add
 add(3, 5)
 addition(3, 5)
+
+color = "Red"
+
+corvette = {
+    "color": color
+}
+
+print("LITTLE", corvette['color'], "CORVETTE")
