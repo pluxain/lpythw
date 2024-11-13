@@ -21,3 +21,12 @@ print(f"Oopsm now I'm {ex026.__dict__['height']} inches tall.")
 
 reload(ex026)
 print(f"I am currently {ex026.height} inches tall.")
+
+print(pprint.__doc__)
+help(pprint)
+
+n = 13
+print(f"n.__repr__() is {n.__repr__()}")
+
+print(f"print.__name__ is {print.__name__} and it is defined in {
+      print.__module__} module")
