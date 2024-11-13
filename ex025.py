@@ -22,3 +22,16 @@ corvette = {
 }
 
 print("LITTLE", corvette['color'], "CORVETTE")
+
+
+def run():
+    print("VROOM")
+
+
+corvette = {
+    "color": "Red",
+    "run": run
+}
+
+print("My", corvette["color"], "can go")
+corvette["run"]()
