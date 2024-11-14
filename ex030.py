@@ -1,8 +1,8 @@
 from dis import dis
 
-people = 20
-cats = 30
-dogs = 15
+people = 30
+cats = 20
+dogs = 25
 
 if people < cats:
     print("Too many cats! The world is doomed!")
@@ -36,3 +36,9 @@ dis('''
 if people >= dogs:
     print("People are greater than or equal to dogs.")
 ''')
+
+if not people == cats and cats == dogs:
+    print("I will not be printed")
+
+if not True or True:
+    print("I will be printed")
