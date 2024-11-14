@@ -1,8 +1,8 @@
 from dis import dis
 
-people = 30
-cars = 40
-trucks = 15
+people = 10
+cars = 10
+trucks = 25
 
 if cars > people:
     print("We should take the cars.")
@@ -22,6 +22,11 @@ if people > trucks:
     print("Alright, let's just take the trucks.")
 else:
     print("Fine, let's stay home then.")
+
+if people == cars and trucks > cars:
+    print("Trying something more difficult.")
+elif cars == trucks or people > 40:
+    print("This should NOT be printed as the first `it` passed (this is bad code)")
 
 dis('''
 if cars > people:
