@@ -34,3 +34,21 @@ for index, practice in enumerate(practices, start=1):
         check,
         f"this is {'' if (answer == check) else 'NOT '}correct"
     )
+
+print('''
+== -> equal
+!= -> not equal
+<  -> less than
+<= -> less than or equal
+>  -> greater than
+>= -> greater than or equal
+''')
+
+print(f"False and True and False and True is {
+      False}", False and True and False and True)
+
+print(f"True or False and True and False is {
+      True}", True or False and True and False)
+
+print(f"(True or False) and (True and False) is {
+      False}", (True or False) and (True and False))
