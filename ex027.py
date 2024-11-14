@@ -56,3 +56,19 @@ while x > 0:
 
 print("input('Yes? ')")
 dis("input('Yes? ')")
+
+print('''
+GAME OF CODE
+
+Taking the 5 Rules we have the following Game of Code:
+
+1. You read data as input to your program (Rule #5).
+2. You store this data in storage (variables) (Rule #4).
+3. You use these variables to perform tests... (Rule #3).
+4. ...so you can JUMP around... (Rule #2)
+5. ...the sequence of instructions... (Rule #1)
+6. ...transforming the data to new variables (Rule #4)...
+7. ...which you then write to output for storage or display. (Rule #5).
+''')
+
+print("A list of Python Byte Code can be found at https://docs.python.org/3/library/dis.html#python-bytecode-instructions")
