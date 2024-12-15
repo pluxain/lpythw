@@ -1,3 +1,5 @@
+from dis import dis
+
 print("""You enter a dark room with two doors.
 Do you go through door #1 or door #2? """ )
 
@@ -35,3 +37,15 @@ elif door == "2":
 
 else:
     print("You stumble around and fall on a knife and die.  Good job!")
+
+dis('''
+if door == "1":
+    print("1")
+    bear = input("> ")
+    if bear == "1":
+        print("bear 1")
+    elif bear == "2":
+        print("bear 2")
+    else:
+        print("bear 3")
+''')
