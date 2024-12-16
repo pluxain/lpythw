@@ -1,4 +1,5 @@
 from dis import dis
+import random
 
 print("""You enter a dark room with two doors.
 Do you go through door #1 or door #2? """ )
@@ -34,7 +35,28 @@ elif door == "2":
     else:
         print("The insanity rots your eyes into a pool of muck.")
         print("Good job!")
-
+elif "sleep" in door:
+    print("You find a place good enough, sit down and fall asleep")
+    luck = random.randint(1, 20)
+    print(f"{luck}")
+    if luck < 5:
+        print("You are suddenly awaken by a group of Skavens")
+        print("But too late and cannot react")
+        print("You end up on a spit")
+        print("Good job!")
+    elif luck < 12:
+        print("You wake up with a headache")
+        print("Probably some herbs were injected in your tea at the auberge...")
+        print("You decide to leave the maze as you puke all your guts!")
+        print("Good job!")
+    elif luck < 20:
+        print("You slept well")
+        print("You are now ready to continue your adventure")
+    else:
+        print("You wake up and feel full of energy")
+        print("As you start going back to your buiseness you trip on a stone")
+        print("You find a ring hidden under a rock in the mud")
+        print("Awesome!! This is a ring of invisibility")
 else:
     print("You stumble around and fall on a knife and die.  Good job!")
 
