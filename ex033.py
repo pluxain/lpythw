@@ -25,8 +25,20 @@ for i in range(0, 6):
     # append is a function that lists understand
     elements.append(i)
 
+elements.insert(0, "inserted")
+elements.remove(3)
+
+print(f"There are actually {len(elements)} elements")
 # now we can print them out too
 for i in elements:
+    print(f"Element was: {i}")
+
+elements.clear()
+
+
+ranges = range(0, 6)
+
+for i in ranges:
     print(f"Element was: {i}")
 
 dis("""
